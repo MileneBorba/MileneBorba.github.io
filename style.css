@@ -1,13 +1,4 @@
 /*
-
-@Author: Tanislav Robert Marian.
-@URL: http://www.woctech.ro
-
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
-
-
 // Table of contents //
 
 		Body
@@ -917,7 +908,7 @@ ul.tags li a:hover{
     display: table;
     height: 100vh;
     width: 100%;
-    background-image: url(http://data.whicdn.com/images/276705155/large.jpg);
+    background-image: url(https://image.freepik.com/free-psd/modern-wood-texture-background_1022-74.jpg);
 		background-attachment: fixed;
     background-position: center center;
     -webkit-background-size: cover;
