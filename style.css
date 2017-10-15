@@ -452,6 +452,14 @@ a{
 	font-weight: 400;
 }
 
+.section-title2 h2{
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	color:#DCDCDC;
+	font-size: 25px;
+	font-weight: 400;
+}
+
 .section-title-parralax h2{
 		text-transform: uppercase;
 		letter-spacing: 10px;
