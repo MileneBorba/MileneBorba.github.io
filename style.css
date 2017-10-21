@@ -47,6 +47,15 @@ body{
     overflow-x: hidden;
 }
 
+.thick-black-border{
+    border-width:1px;
+    border-color:black;
+    border-style:solid;
+}
+.smaller-image {
+    width: 200px;
+}
+
 /* #####  text  ##### */
 
 h1,h2,h3,h4,h5,h6{
