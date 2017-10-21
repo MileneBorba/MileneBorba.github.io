@@ -73,7 +73,7 @@
 					</div>
 					<img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAhRAAAAJDUzNTNjNGU2LTk1ODUtNGYxZC1hZGE5LWE0MzY5YjBmZjg1Mw.jpg" alt="portifolio photo" width="300">
 					<div class="km-space"></div>
-					<h5 class="lead">Hey thanks for passing by! Well, here i'll try to make a breef introduction about myself. My name is Milene Rodrigues Borba 
+					<h5 class="lead">Hey! thanks for passing by! Well, here i'll try to make a breef introduction about myself. My name is Milene Rodrigues Borba 
 					</h5>
 				</div>
 			</div><!-- description text -->
@@ -104,7 +104,7 @@
 			</div>
             <div class="row mt-100">
                     <!--contact info-->
-                    <div class="text-center wow slideInUp">
+                    <div class="col-md-4 col-sm-4 text-center wow slideInUp">
                         <div class="detail">
                             <i class="lnr lnr-phone"></i>
                             <h4><span>My e-mail and phone</span></h4>
@@ -117,7 +117,33 @@
                         </div>
                     </div>
                     <!--end contact info-->
-		</div>
+		     <!-- CONTACT FORM -->
+		     <div class="col-md-4 col-sm-4 text-center wow slideInUp">
+			     <div class="contact-form bottom">
+               	     <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                	     <div class="col-md-6 col-sm-6 col-xs-12">
+                             <div class="form-group">
+                        	 <input type="text" name="name" id="name" class="form-control" required="required" placeholder="Name">
+                             </div>
+                             <div class="form-group">
+                                 <input type="text" name="company" id="company" class="form-control" required="required" placeholder="Company">
+                             </div>
+                             <div class="form-group">
+                                 <input type="email" name="email" id="email" class="form-control" required="required" placeholder="Email Id">
+                             </div>
+                     </div>
+                             <div class="col-md-6 col-sm-6 col-xs-12">
+                             	<div class="form-group">
+                                   <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your text here"></textarea>
+                             	</div>
+                                <div class="form-group">
+                                   <button id="submit_btn" class="default-btn gray-btn"> Send <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+                                </div>
+                             </div>
+                     </form>
+                   </div>
+		 </div>     
+	       </div>
 	</section>
 
 	
