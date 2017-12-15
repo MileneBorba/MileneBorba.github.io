@@ -170,6 +170,21 @@ Network Controllers" published at Latin America Networking Conference - 2016</h5
                    </div> 
 		   <div class="col-md-4 col-sm-8 text-center wow slideInUp"> 
 			   <h4><span>Get in touch with me via video conference!</span></h4>
+			   <script src="https://meet.jit.si/external_api.js"></script>
+					<script>
+					    var domain = "meet.jit.si";
+					    var options = {
+						roomName: "JitsiMeetAPIExample",
+						width: 300,
+						height: 200,
+						parent: undefined,
+						configOverwrite: {},
+						interfaceConfigOverwrite: {
+						    filmStripOnly: true
+						}
+					    }
+					    var api = new JitsiMeetExternalAPI(domain, options);
+					</script>
 	           </div>		   
             </div> 
 	</section>
